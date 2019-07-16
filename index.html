@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<html>
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> YASH</title>
+    <title>YASH</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/style.css">
@@ -12,41 +12,123 @@
 </head>
 
 <body>
-
-    <nav>
-        <div class="header">
-            <div class="nav-left">
-                <a href=""><h1>Yash Boura</h1></a>
+    <header>
+        <nav>
+            <a class="nav-left" href="">
+                <h1>Yash Boura</h1>
+            </a>
+            <ul class="nav-right">
+                <li><a href=""><i class="icon ion-md-home" size="small"></i>
+                        <h3>Home</h3>
+                    </a></li>
+                <li><a href=""><i class="icon ion-md-person" size="small"></i>
+                        <h3>About</h3>
+                    </a></li>
+                <li><a href=""><i class="icon ion-md-filing" size="small"></i>
+                        <h3>Projects</h3>
+                    </a></li>
+                <li><a href=""><i class="icon ion-md-mail" size="small"></i>
+                        <h3>Contacts</h3>
+                    </a></li>
+            </ul>
             </div>
-            <div class="nav-right">
-                <ul class="options">
-                    <li><a href=""><i class="icon ion-md-home" size="small"></i> <h3>Home</h3></a></li>
-                    <li><a href=""><i class="icon ion-md-person" size="small"></i> <h3>About</h3></a></li>
-                    <li><a href=""><i class="icon ion-md-mail" size="small"></i> <h3>Contact</h3></a></li>
-                    
+        </nav>
+        <section class="photo-section">
+            <div class="my-photo"><img src="./img/my1.png" alt="my photo" width="200" height="200"></div>
+            <div class="photo-contents">
+                <p>Hey ! I'm Third Year Computer Engineering student from Mumbai University</p>
+            </div>
+            <div class="social-media">
+                <ul class="social-icons">
+                    <li><a href=""><i class="icon ion-logo-instagram" size="small"></i></a></li>
+                    <li><a href=""><i class="icon ion-logo-facebook" size="small"></i></a></li>
+                    <li><a href=""><i class="icon ion-logo-github" size="small"></i></a></li>
                 </ul>
             </div>
-            <div>
-                
+        </section>
+        <section class="about"></section>
+    </header>
+    <section class="about-section">
+        <h2 class="about-heading">About Me</h2>
+        <div class="about-container">
+            <div class="box1">
+                <h2>Education</h2>
+            </div>
+            <div class="box2">
+                <p>
+                    Bachelor of Engineering (B.E), Computer science (2017 - 2021)<br>
+                    St. Francis Institute Of Technology, Borivali<br>CGPA : 8.00/10
+            </div>
+            </p>
+        </div>
+        <div class="about-container">
+            <div class="box1">
+                <h2>Skills</h2>
+            </div>
+            <div class="box2">
+                <p>
+                    Languages : C, Python, Java, HTML/CSS, Javascript<br>
+                    Web Framework : Django<br>VCS: Git
+            </div>
+            </p>
+
+        </div>
+        <div class="about-container">
+            <div class="box1">
+                <h2>Additional Details</h2>
+            </div>
+            <div class="box2">
+                <p>
+                    Winner in two Inter-College (Mumbai) Vollyball Tournaments 2019
+                    <br>
+                    Member of one of the college computer department committee i.e 'CODEX'<br>
+            </div>
+            </p>
+
+        </div>
+
+    </section>
+    <section class="projects-section">
+        <h2 class="projects-heading">My Projects</h2>
+        <div class="projects-container">
+            <div class="projects-box">
+                <div>
+                    <img src="./img/django-logo.jpg" alt="Django-img" height="250">
+                </div>
+                <p>Shopping Cart system with login/signup authentication where logged in user can select available
+                    products to buy and add, delete to the cart.
+                </p>
+                <div class="projects-link">
+                    <p> <a href="https://github.com/yashboura303/d_cart_project">Project-Link</a></p>
+                </div>
+            </div>
+            <div class="projects-box">
+                <div>
+                    <img src="./img/java.png" alt="java-img" height="250">
+                </div>
+                <p>Hotel Database Mangement where user needs to login through authentication and can add/delete/edit
+                    customer details</p>
+                <div class="projects-link">
+                    <p> <a href="https://github.com/yashboura303/hotel_management">Project-Link</a></p>
+                </div>
+            </div>
+            <div class="projects-box">
+                <div>
+                    <img src="./img/py.png" alt="pygame-img" height="250">
+                </div>
+                <p>First game user need to mo25 paddle so the ball doesn't get past the boundary and second game is
+                    falling boxes where user needs to dodge falling boxes by pressing right/left cursor key
+                </p>
+                <div class="projects-link">
+                    <p> <a href="https://github.com/yashboura303/pygame_project">Project-Link</a></p>
+                </div>
+
             </div>
         </div>
-    </nav>
-    <section class = "photo-section">
-    <div class="my-photo">
-        <img src="./img/my1.png" alt="my photo" width="200" height = "200">
-    </div>
-    <div class="photo-contents">
-    <p>Hey! I'm Third Year Computer Engineering student from Mumbai University</p> 
-    </div>
-    <div class="social-media">
-        <ul class="social-icons">
-                    <li><a href=""><i class="icon ion-logo-instagram" size="small"></i> </a></li>
-                    <li><a href=""><i class="icon ion-logo-facebook" size="small"></i> </a></li>
-                    <li><a href=""><i class="icon ion-logo-github" size="small"></i> </a></li>
-                </ul>
-    </div>
     </section>
-
+    <section class="contact-section">
+    <h2 class="contact-heading">Contact</h2>
+    </section>
 </body>
 
 </html>
