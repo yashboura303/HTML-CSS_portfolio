@@ -274,3 +274,26 @@ header {
     color: #ff9e32;
     font-size: 1.3rem;
 }
+
+/*********************
+        Contact
+ ************************/
+.contact-div p {
+    color: #24292e; 
+}
+.contact-mail{
+    color: #ff9e32;
+    font-size: 1.6rem;
+    /* text-align:center; */
+}
+.contact-mail:hover{
+    color: #be6703;
+}
+
+.contact-section{
+    text-align:center;
+}
+.contact-div{
+    margin-top:30px;
+    margin-bottom:40px;
+}
