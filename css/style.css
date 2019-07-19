@@ -160,8 +160,11 @@ header {
 .nav-right li:hover i {
     color: #ff9e32;
     display: none;
+    transition: display 1.5s ease-out;
 
 }
+
+
 
 .nav-right li a {
     display: block;
@@ -169,17 +172,19 @@ header {
 }
 
 .nav-right li h3 {
+    /* opacity: 0;
+    visibility: hidden; */
     display: none;
-    padding: 0px 0px;
-    transition: visibility 2s;
 
 }
 
 .nav-right li:hover h3 {
-    display: block;
+    display: inline-block;
     color: #ff9e32;
+    transition: display 1.5s ease-out;
 
 }
+
 
 /*********************
         My Photo 
