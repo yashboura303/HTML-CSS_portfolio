@@ -193,6 +193,11 @@ header {
 .my-photo {
     flex-basis: 20%;
 }
+.my-photo img{
+    border:4px solid #ff8e10;
+    border-radius: 50%;
+
+}
 
 .photo-center {
     display: flex;
